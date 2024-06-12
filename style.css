@@ -1,0 +1,115 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+  padding-left: 1.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-link:hover{
+  background-color: #7FBCD2;
+}
+/* Home page */
+
+img{
+  width:95%;
+  padding-top: 80px;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+span{
+  color:  #00ABB3;
+}
+.con{
+  padding-top: 80px;
+  line-height: 2;
+  width: 80%;
+}
+.intro{
+  width:85%;
+  text-align: left;
+  font-size: 18px;
+}
+.explore{
+  padding-top: 10%;
+  padding-bottom: 4%;
+}
+.exp{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 55px;
+}
+
+.explore-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 3%;
+
+}
+.adm{
+  width:35%;
+  float: left;
+  margin-right: 50px;
+  position: relative;
+  bottom: 80px;
+}
+.stud{
+  width:35%;
+  float: right;
+  margin-left: 50px;
+  position: relative;
+  bottom: 80px;
+}
+.demo{
+  line-height: 2;
+  width:105%;
+}
+.bt{
+  position: relative;
+  right:95px;
+}
+h3{
+  color: #00ABB3;
+}
+/* footer */
+#footer{
+    color: black;
+    padding-top:5%;
+    padding-bottom: 2%;
+    text-align:center;
+    background-color: #7FBCD2;
+}
+
+
+
+/*************** login css ********************/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+/*******************************************/
